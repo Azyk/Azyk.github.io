@@ -12,17 +12,12 @@ document.addEventListener('click', (event) => {
       window.location.href = 'https://azyk.github.io/Game/index.html';
 
       // Переход на другую страницу после завершения прыжка
-      setTimeout(() => {
-         window.location.href = 'https://azyk.github.io/Game/';
-      }, jumpDuration);
+      // setTimeout(() => {
+      //    window.location.href = 'https://azyk.github.io/Game/';
+      // }, jumpDuration);
    }
    if (event.target.closest('.green__pipe')) {
       mario.classList.remove('jump');
       mario.classList.add('duble_jump');
-
-      // Переход на другую страницу после завершения двойного прыжка
-      setTimeout(() => {
-         window.location.href = 'https://azyk.github.io/Game/';
-      }, jumpDuration);
    }
 });
