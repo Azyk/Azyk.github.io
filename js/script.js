@@ -9,7 +9,7 @@ document.addEventListener('click', (event) => {
       mario.classList.remove('duble_jump');
       mario.classList.add('jump');
       audio.play();
-      window.location.href = 'https://azyk.github.io/Game/';
+      window.location.href = 'https://azyk.github.io/Game/index.html';
 
       // Переход на другую страницу после завершения прыжка
       setTimeout(() => {
