@@ -1,8 +1,8 @@
 let audio = document.querySelector('audio');
 let mario = document.querySelector('.mario');
 
-// Время анимации в миллисекундах (например, 3000 мс)
-const jumpDuration = 3000;
+// Время анимации в миллисекундах
+const jumpDuration = 2000;
 
 document.addEventListener('click', (event) => {
    if (event.target.closest('.mario-img')) {
